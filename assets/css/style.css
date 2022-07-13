@@ -89,8 +89,6 @@ section#titulo-principal figure {
   width: 50%;
 }
 section#titulo-principal figure img {
-  /* border-radius: 20px;
-  border-style: solid; */
   width: 70%;
 }
 
@@ -119,9 +117,6 @@ section#apresentacao {
   box-shadow: 20px 20px 20px 20px #310e47;
 }
 
-section#apresentacao h2 {
-  /* color: rgba(103,62,138,1); */
-}
 section#apresentacao img {
   width: 20vw;
   border-radius: 3vw;
@@ -357,12 +352,6 @@ footer {
     width: 80%;
   }
   
-  div#lista-projetos div.proj:hover {
-    transform: scale(1.3);
-    align-items: center;
-    cursor: pointer;
-  }
-  
   div#lista-projetos div.proj h3 {
     padding: 2vw;
     font-size: 1.5rem;
@@ -583,12 +572,7 @@ footer {
     align-items: center;
     width: 80%;
   }
-  
-  div#lista-projetos div.proj:hover {
-    transform: scale(1.3);
-    align-items: center;
-    cursor: pointer;
-  }
+
   
   div#lista-projetos div.proj h3 {
     padding: 2vw;
@@ -802,9 +786,7 @@ footer {
   }
   
   div#lista-projetos div.proj:hover {
-    transform: scale(1.3);
-    align-items: center;
-    cursor: pointer;
+    display: none;
   }
   
   div#lista-projetos div.proj h3 {
@@ -814,6 +796,10 @@ footer {
   
   div#lista-projetos div.proj p {
     padding: 2vw;
+  }
+
+  .redes:hover{
+    display: none;
   }
 }
 
