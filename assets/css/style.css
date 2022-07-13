@@ -280,9 +280,41 @@ footer {
   width: 100%;
 }
 
+
+
+
 @media (max-width: 1025px){
   section#titulo-principal img{
     display: none;
+  }
+
+  /* Apresentação */
+  section#apresentacao {
+    width: 70vw;
+    color: white;
+    margin: 5vw auto;
+    padding: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 21%,
+      rgba(63, 34, 93, 1) 55%,
+      rgba(103, 62, 138, 1) 100%
+    );
+    box-shadow: 20px 20px 20px 20px #310e47;
+  }
+
+  section#apresentacao img {
+    width: 30vw;
+    border-radius: 3vw;
+    border-style: solid;
+  }
+  
+  section#apresentacao p {
+    padding: 2rem 3rem 2rem 3rem;
   }
 
   /* Projetos */
@@ -707,6 +739,22 @@ footer {
 
 
 @media (max-width: 550px){
+  ul#menu {
+    text-align: left;
+    display: none;
+    position: absolute;
+    top: 6rem;
+    right: 2rem;
+    background-color: rgba(63, 34, 93, 1);
+    transition: .6s;
+  }
+
+  section#titulo-principal {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* Projetos */
   section#projetos {
     width: 100%;
@@ -769,6 +817,7 @@ section#titulo-principal {
     justify-content: center;
     align-items: center;
   }
+
   section#titulo-principal div h1 {
     width: 500px;
     height: 80px;
