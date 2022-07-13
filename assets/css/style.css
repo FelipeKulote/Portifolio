@@ -175,7 +175,7 @@ div#lista-projetos figure img {
 }
 
 div#lista-projetos div.proj:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   align-items: center;
   cursor: pointer;
 }
@@ -354,7 +354,7 @@ footer {
   }
   
   div#lista-projetos div.proj:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     align-items: center;
     cursor: pointer;
   }
@@ -581,7 +581,7 @@ footer {
   }
   
   div#lista-projetos div.proj:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     align-items: center;
     cursor: pointer;
   }
