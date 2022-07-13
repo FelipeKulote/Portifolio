@@ -740,6 +740,7 @@ footer {
 
 @media (max-width: 550px){
   ul#menu {
+    width: 100%;
     text-align: left;
     display: none;
     position: absolute;
@@ -753,6 +754,11 @@ footer {
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+
+  section#apresentacao p {
+    padding: 2rem 3rem 2rem 3rem;
+    text-align: center;
   }
 
   /* Projetos */
