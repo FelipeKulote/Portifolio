@@ -736,11 +736,11 @@ footer {
 @media (max-width: 550px){
   ul#menu {
     width: 100%;
-    text-align: left;
+    text-align: center;
     display: none;
     position: absolute;
     top: 6rem;
-    right: 2rem;
+    right: 0;
     background-color: rgba(63, 34, 93, 1);
     transition: .6s;
   }
