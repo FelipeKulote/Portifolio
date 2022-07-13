@@ -352,6 +352,12 @@ footer {
     width: 80%;
   }
   
+  div#lista-projetos div.proj:hover {
+    transform: scale(1.3);
+    align-items: center;
+    cursor: pointer;
+  }
+  
   div#lista-projetos div.proj h3 {
     padding: 2vw;
     font-size: 1.5rem;
@@ -572,7 +578,12 @@ footer {
     align-items: center;
     width: 80%;
   }
-
+  
+  div#lista-projetos div.proj:hover {
+    transform: scale(1.3);
+    align-items: center;
+    cursor: pointer;
+  }
   
   div#lista-projetos div.proj h3 {
     padding: 2vw;
@@ -785,10 +796,6 @@ footer {
     width: 80%;
   }
   
-  div#lista-projetos div.proj:hover {
-    display: none;
-  }
-  
   div#lista-projetos div.proj h3 {
     padding: 2vw;
     font-size: 1.5rem;
@@ -796,10 +803,6 @@ footer {
   
   div#lista-projetos div.proj p {
     padding: 2vw;
-  }
-
-  .redes:hover{
-    display: none;
   }
 }
 
